@@ -1,6 +1,6 @@
 app-id: io.github.dlippok.photometric-viewer
 runtime: org.gnome.Platform
-runtime-version: "44"
+runtime-version: "45"
 sdk: org.gnome.Sdk
 command: photometric-viewer
 finish-args:
@@ -17,5 +17,5 @@ modules:
     sources:
       - type: git
         url: "https://github.com/dlippok/photometric-viewer.git"
-        tag: v2.1.0
-        commit: e7ae80d499c4da092681790806845813efbe0f5d
+        tag: v2.1.1
+        commit: 0c525f16ede86fd5f260ff8c89d5c17b74eb115a
