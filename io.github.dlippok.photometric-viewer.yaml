@@ -13,9 +13,9 @@ modules:
   - name: photometric-viewer
     buildsystem: simple
     build-commands:
-      - pip3 install . --prefix ${FLATPAK_DEST}
+      - INSTALL_TARGET=${FLATPAK_DEST} make install
     sources:
       - type: git
         url: "https://github.com/dlippok/photometric-viewer.git"
-        tag: v2.1.1
-        commit: 0c525f16ede86fd5f260ff8c89d5c17b74eb115a
+        tag: v2.1.2
+        commit: e94c02a567d1fd56fae65f61015a13ca50fe9a1a
