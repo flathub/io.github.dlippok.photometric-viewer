@@ -17,5 +17,5 @@ modules:
     sources:
       - type: git
         url: "https://github.com/dlippok/photometric-viewer.git"
-        tag: v3.5.1
-        commit: 5dcc799b89a11fbb52f839f5d99aa40cae823137
+        tag: v3.6.0
+        commit: 314d759cb94f63de32958bb12476e7c9716a3ff1
